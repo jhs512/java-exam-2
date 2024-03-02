@@ -19,6 +19,8 @@ public class Main {
 
             if (cmd.equals("종료")) {
                 break;
+            } else if (cmd.contains("+")) {
+                System.out.println("더하기");
             }
 
             System.out.println("입력한 값: " + cmd);
