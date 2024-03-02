@@ -10,13 +10,19 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("계산기, 시작");
 
-        System.out.print("입력 : ");
+        while (true) {
+            System.out.print("입력) ");
 
-        Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
-        String cmd = scanner.nextLine();
+            String cmd = scanner.nextLine();
 
-        System.out.println("입력한 값: " + cmd);
+            if (cmd.equals("종료")) {
+                break;
+            }
+
+            System.out.println("입력한 값: " + cmd);
+        }
 
         System.out.println("계산기, 끝");
     }
