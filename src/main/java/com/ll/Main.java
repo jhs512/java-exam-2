@@ -24,8 +24,8 @@ public class Main {
 
                 String[] values = cmd.split("\\+");
 
-                String num1Str = values[0];
-                String num2Str = values[1];
+                String num1Str = values[0].trim();
+                String num2Str = values[1].trim();
 
                 int num1 = Integer.parseInt(num1Str);
                 int num2 = Integer.parseInt(num2Str);
