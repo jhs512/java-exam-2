@@ -26,6 +26,13 @@ public class Main {
 
                 String num1Str = values[0];
                 String num2Str = values[1];
+
+                int num1 = Integer.parseInt(num1Str);
+                int num2 = Integer.parseInt(num2Str);
+
+                int result = num1 + num2;
+
+                System.out.println("결과 : " + result);
             }
 
             System.out.println("입력한 값: " + cmd);
